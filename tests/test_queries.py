@@ -6,7 +6,7 @@ import pytest
 import strawberry
 from asgiref.sync import sync_to_async
 from django.core.files.uploadedfile import SimpleUploadedFile
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 from PIL import Image
 from strawberry import auto
 

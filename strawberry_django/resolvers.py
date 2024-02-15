@@ -13,7 +13,7 @@ from strawberry.utils.inspect import in_async_context
 from typing_extensions import ParamSpec
 
 if TYPE_CHECKING:
-    from graphql.pyutils import AwaitableOrValue
+    from graphqlx.pyutils import AwaitableOrValue
 
 _SENTINEL = object()
 _R = TypeVar("_R")

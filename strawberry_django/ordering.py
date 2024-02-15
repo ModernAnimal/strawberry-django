@@ -14,7 +14,7 @@ from typing import (
 
 import strawberry
 from django.db import models
-from graphql.language.ast import ObjectValueNode
+from graphqlx.language.ast import ObjectValueNode
 from strawberry import UNSET
 from strawberry.arguments import StrawberryArgument
 from strawberry.field import StrawberryField, field

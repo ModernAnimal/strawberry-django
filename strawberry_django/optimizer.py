@@ -28,8 +28,8 @@ from django.db.models.fields.reverse_related import (
 )
 from django.db.models.manager import BaseManager
 from django.db.models.query import QuerySet
-from graphql.language.ast import OperationType
-from graphql.type.definition import GraphQLResolveInfo, get_named_type
+from graphqlx.language.ast import OperationType
+from graphqlx.type.definition import GraphQLResolveInfo, get_named_type
 from strawberry import relay
 from strawberry.extensions import SchemaExtension
 from strawberry.lazy_type import LazyType

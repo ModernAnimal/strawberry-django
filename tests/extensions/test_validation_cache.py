@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import pytest
 import strawberry
-from graphql import validate
+from graphqlx import validate
 
 from strawberry_django.extensions.django_validation_cache import DjangoValidationCache
 

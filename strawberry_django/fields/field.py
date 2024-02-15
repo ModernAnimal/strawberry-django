@@ -47,7 +47,7 @@ from strawberry_django.resolvers import (
 )
 
 if TYPE_CHECKING:
-    from graphql.pyutils import AwaitableOrValue
+    from graphqlx.pyutils import AwaitableOrValue
     from strawberry import BasePermission
     from strawberry.arguments import StrawberryArgument
     from strawberry.extensions.field_extension import (

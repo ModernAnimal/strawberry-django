@@ -14,7 +14,7 @@ from typing import (
 
 import strawberry
 from django.db.models import F, OrderBy, QuerySet
-from graphql.language.ast import ObjectValueNode
+from graphqlx.language.ast import ObjectValueNode
 from strawberry import UNSET
 from strawberry.field import StrawberryField, field
 from strawberry.type import WithStrawberryObjectDefinition, has_object_definition

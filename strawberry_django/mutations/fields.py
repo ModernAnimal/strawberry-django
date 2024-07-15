@@ -32,7 +32,7 @@ from strawberry_django.utils.inspect import get_possible_types
 from . import resolvers
 
 if TYPE_CHECKING:
-    from graphql.pyutils import AwaitableOrValue
+    from graphqlx.pyutils import AwaitableOrValue
     from strawberry.arguments import StrawberryArgument
     from strawberry.type import StrawberryType, WithStrawberryObjectDefinition
     from strawberry.types import Info

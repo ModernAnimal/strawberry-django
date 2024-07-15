@@ -12,7 +12,7 @@ from typing import (
 
 import strawberry
 from django.db.models import F, OrderBy, QuerySet
-from graphql.language.ast import ObjectValueNode
+from graphqlx.language.ast import ObjectValueNode
 from strawberry import UNSET
 from strawberry.types import has_object_definition
 from strawberry.types.base import WithStrawberryObjectDefinition

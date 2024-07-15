@@ -23,7 +23,7 @@ import strawberry
 from asgiref.sync import sync_to_async
 from django.core.exceptions import PermissionDenied
 from django.db.models import Model, QuerySet
-from graphql.pyutils import AwaitableOrValue
+from graphqlx.pyutils import AwaitableOrValue
 from strawberry import relay, schema_directive
 from strawberry.extensions.field_extension import (
     AsyncExtensionResolver,

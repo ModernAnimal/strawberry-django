@@ -15,7 +15,7 @@ from typing import (
 )
 
 from django.db.models.expressions import BaseExpression, Combinable
-from graphql.type.definition import GraphQLResolveInfo
+from graphqlx.type.definition import GraphQLResolveInfo
 from strawberry.annotation import StrawberryAnnotation
 from strawberry.types.auto import StrawberryAuto
 from strawberry.types.base import (

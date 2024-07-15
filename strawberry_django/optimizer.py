@@ -25,7 +25,7 @@ from django.db.models.fields.reverse_related import (
 )
 from django.db.models.manager import BaseManager
 from django.db.models.query import QuerySet
-from graphql import (
+from graphqlx import (
     FieldNode,
     GraphQLInterfaceType,
     GraphQLObjectType,
@@ -33,9 +33,9 @@ from graphql import (
     GraphQLWrappingType,
     get_argument_values,
 )
-from graphql.execution.collect_fields import collect_sub_fields
-from graphql.language.ast import OperationType
-from graphql.type.definition import GraphQLResolveInfo, get_named_type
+from graphqlx.execution.collect_fields import collect_sub_fields
+from graphqlx.language.ast import OperationType
+from graphqlx.type.definition import GraphQLResolveInfo, get_named_type
 from strawberry import relay
 from strawberry.extensions import SchemaExtension
 from strawberry.relay.utils import SliceMetadata

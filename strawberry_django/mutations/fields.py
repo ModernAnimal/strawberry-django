@@ -33,7 +33,7 @@ from . import resolvers
 if TYPE_CHECKING:
     from collections.abc import Iterable
 
-    from graphql.pyutils import AwaitableOrValue
+    from graphqlx.pyutils import AwaitableOrValue
     from strawberry.types import Info
     from strawberry.types.arguments import StrawberryArgument
     from strawberry.types.base import (
